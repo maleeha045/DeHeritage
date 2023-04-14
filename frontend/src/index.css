@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Chakra Petch";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0e13;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+
+
+  min-height: 100vh;
+  min-width: 100vh;
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+.main {
+  color: white;
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: 'Arvo', serif;
+  left: 2rem;
+  align-items: left;
+  padding-top: 28px;
+  padding-left: 48px;
+  /* background-color: aliceblue; */
+  /* display: none; */
+  margin: 0;
+  margin-left: 40px;
+  /* display: flex; */
+  width: 10em;
+  padding-bottom: 10px;
+
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: aqua; */
+  /* width: 18em; */
+}
+
+.disconnectbtn {
+  background-color: rgb(69, 252, 228);
+  padding: 5px;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.disconnectbtn:hover {
+  background-color: rgb(30, 231, 204);
+  color: rgb(6, 62, 78)
+}
+
+.getstartedbtn {
+  background-color: rgb(69, 252, 228);
+  padding: 5px;
+  border-radius: 8px;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.getstartedbtn:hover {
+  background-color: rgb(30, 231, 204);
+  color: rgb(6, 62, 78)
+}
+
+.addtokenbtn {
+  /* background-color: rgb(69, 252, 228); */
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(69, 252, 228);
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  /* font-size: 19px; */
+}
+
+.gohome {
+  margin-top: -60px;
+}
+
+.learnmorebtn {
+  border-radius: 8px;
+  border: 1px solid rgb(69, 252, 228);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.learnmorebtn:hover {
+  background-color: rgb(30, 231, 204);
+  color: rgb(6, 62, 78);
+}
+
+.learnbtn {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -20px;
+}
+
+.gohomebtn {
+  /* padding: 5px; */
+  border-radius: 8px;
+  border: 2px solid rgb(69, 252, 228);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  /* padding-top: -20px; */
+
+}
+
+.gohomebtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 192, 233)
+}
+
+.addtokenbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(36, 199, 199);
+}
+
+.main1 {
+
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* background-color: aqua; */
+  width: 18em;
+  margin-bottom: -80px;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+  /* margin-left: 40px; */
+  /* margin-top: -60px; */
+  /* font-size: 20px; */
+  color: rgb(69, 252, 228);
+
+}
+
+.textbox h6 {
+  font-size: 14px;
+  /* font-family: 'Khula', sans-serif; */
+  margin-top: -50px;
+  text-align: left;
+
+}
+
+.main1 h2 {
+  font-family: 'Arvo', serif;
+  /* flex-direction: column;
+  display: block; */
+  margin-bottom: -10px;
+}
+
+.assettext {
+  color: rgb(69, 252, 228);
+}
+
+.getstartedbutton {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lottie {
+  /* background-color: blue; */
+  display: flex;
+}
+
+
+/* how it works */
+.howitworks1 {
+  display: flex;
+  flex-direction: column;
+  left: 2rem;
+  align-items: left;
+  padding-bottom: 100px;
+  margin-top: 180px;
+  margin-left: 50px;
+  width: 30em;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.howitworks h1 {
+  font-family: 'Arvo', serif;
+  font-size: 5rem;
+  padding-right: 10px;
+  margin-left: -10px;
+  text-align: left;
+  /* margin-top: -250px; */
+
+}
+
+.howitworks1 h6 {
+  font-size: 14px;
+  align-self: flex-start;
+  margin-left: -20px;
+  text-align: left;
+}
+
+.howitworks {
+  display: flex;
+
+}
+
+.howimage {
+  width: 70vh;
+  height: 40vh;
+  margin-left: 150px;
+
+  margin-top: 150px;
+  /* background-color: blue; */
+}
+
+.grid {
+  background-color: white;
+
+}
